@@ -13,9 +13,9 @@
   </a>
 </p>
 
-> Develop chatbot with zero configuration using typescript
+> How to create a summary bot with AI
 
-[![#Build with IT Man - ChatBot & AI - Part 1 [Vietnamese]](https://i.ytimg.com/vi/q1ngSbMqXUE/hqdefault.jpg)](https://www.youtube.com/watch?v=q1ngSbMqXUE)
+[![#Build with IT Man - ChatBot & AI - Part 2 [Vietnamese]](https://i.ytimg.com/vi/q1ngSbMqXUE/hqdefault.jpg)](https://www.youtube.com/watch?v=q1ngSbMqXUE)
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ pnpm install
 ## Usage
 
 ```sh
-git clone https://github.com/jellydn/chatbot-starter-app.git
+git clone https://github.com/jellydn/summary-chatbot-demo.git
 ```
 
 Create .env from .env.example then run below command
@@ -77,6 +77,12 @@ pnpm test
 3. Run `npm run start-tunnel` and connect the public url with facebook webhook.
 4. Uncomment `// import './render/facebook';` inside `src/index.ts`
 5. Run `npm run dev` and check your bot
+
+## Resources
+
+-   [Zustand](https://zustand-demo.pmnd.rs/)
+-   [google/zx](https://google.github.io/zx/)
+-   [jmorganca/ollama](https://github.com/jmorganca/ollama)
 
 ## Author
 
