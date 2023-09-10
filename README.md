@@ -1,109 +1,94 @@
-<h1 align="center">Welcome to chatbot-starter-app 👋</h1>
-<p>
+<h1 align="center">Welcome to summary-chatbot-demo 👋</h1>
+
+<p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D16.20.0-blue.svg" />
-  <a href="https://github.com/jellydn/chatbot-starter-app#readme" target="_blank">
+  <a href="https://github.com/jellydn/summary-chatbot-demo#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/jellydn/chatbot-starter-app/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/jellydn/summary-chatbot-demo/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/jellydn/chatbot-starter-app/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/jellydn/chatbot-starter-app" />
+  <a href="https://github.com/jellydn/summary-chatbot-demo/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/jellydn/summary-chatbot-demo" />
   </a>
 </p>
 
-> How to create a summary bot with AI
+> 🤖 Build an intelligent Summary ChatBot with AI technologies. Simplify content extraction and make summarization easy.
 
-[![#BuildWithITMan - ChatBot & AI - Create a Summary ChatBot with AI [Vietnamese]](https://i.ytimg.com/vi/ww9LctJeq84/hqdefault.jpg)](https://www.youtube.com/watch?v=ww9LctJeq84)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ww9LctJeq84" target="_blank">
+    <img src="https://i.ytimg.com/vi/ww9LctJeq84/hqdefault.jpg" alt="#BuildWithITMan - ChatBot & AI - Create a Summary ChatBot with AI">
+  </a>
+</p>
 
-## Demo
+## 🚀 Demo
 
-### Setting
+### 🛠 Setting
 
-[![Demo 1](https://i.gyazo.com/394e4d532914043b752a31439af1d7ba.gif)](https://gyazo.com/394e4d532914043b752a31439af1d7ba)
+![Demo 1](https://i.gyazo.com/394e4d532914043b752a31439af1d7ba.gif)
 
-### Summary content
+### 📝 Summary Content
 
-[![Demo 2](https://i.gyazo.com/92491da4157fdcc06f546b2bfa9f1a1d.gif)](https://gyazo.com/92491da4157fdcc06f546b2bfa9f1a1d)
+![Demo 2](https://i.gyazo.com/92491da4157fdcc06f546b2bfa9f1a1d.gif)
 
-[![Demo 3](https://i.gyazo.com/67ccd06b85a9b0c0dbfb5882f75ea607.jpg)](https://gyazo.com/67ccd06b85a9b0c0dbfb5882f75ea607)
+![Demo 3](https://i.gyazo.com/67ccd06b85a9b0c0dbfb5882f75ea607.jpg)
 
-## Prerequisites
+## 📋 Prerequisites
 
--   node >=16.20.0
+-   Node.js >= 16.20.0
 
-## Install
+## 📦 Installation & Usage
 
-```sh
-pnpm install
-```
-
-## Usage
-
-```sh
+```bash
+# Clone the repository
 git clone https://github.com/jellydn/summary-chatbot-demo.git
-```
 
-Create .env from .env.example then run below command
+# Navigate into the folder
+cd summary-chatbot-demo
 
-```sh
+# Install dependencies
+pnpm install
+
+# Create environment variables
+cp .env.example .env
+
+# Start the development server
 pnpm dev
 ```
 
-## Run tests
+## 🧪 Running Tests
 
-```sh
+```bash
 pnpm test
 ```
 
-## How to setup
+## 🛠 How to Setup Integrations
 
-### Telegram
+Detailed steps for setting up with different platforms:
 
-1.  Get telegram [token](https://core.telegram.org/bots#6-botfather)
-2.  Paste token to `.env` `TELEGRAM_TOKEN=YOUR_TOKEN`
-3.  Uncomment `// import './render/telegram';` inside `src/index.ts`
-4.  Run `npm run dev` and check your bot
+-   **Telegram**: [Telegram Setup](https://github.com/jellydn/chatbot-starter-app?tab=readme-ov-file#telegram)
+-   **Discord**: [Discord Setup](https://github.com/jellydn/chatbot-starter-app?tab=readme-ov-file#discord)
+-   **Slack**: [Slack Setup](https://github.com/jellydn/chatbot-starter-app?tab=readme-ov-file#slack)
+-   **Facebook**: [Facebook Setup](https://github.com/jellydn/chatbot-starter-app?tab=readme-ov-file#facebook)
 
-### Discord
+> 👀 Refer to each section for platform-specific instructions.
 
-1. Get discord [token](https://discord.com/developers/applications/PASTE_YOUR_ID/bot)
-2. Paste token to `.env` `DISCORD_TOKEN=YOUR_TOKEN`
-3. Uncomment `// import './render/discord';` inside `src/index.ts`
-4. Run `npm run dev` and check your bot
+## 📚 Additional Resources
 
-### Slack
+-   [Zustand State Management](https://zustand-demo.pmnd.rs/)
+-   [Scripting with Google ZX](https://google.github.io/zx/)
+-   [Get up and running with Llama 2 and other large language models locally
+    ](https://github.com/jmorganca/ollama)
 
-1.  Create [slack app](https://slack.com/intl/en-ru/help/articles/115005265703-Create-a-bot-for-your-workspace)
-2.  Paste [token](https://api.slack.com/authentication/token-types#granular_bot) to `.env` `SLACK_TOKEN=YOUR_TOKEN`
-3.  Paste [signing secret](https://api.slack.com/authentication/verifying-requests-from-slack#about) to `.env` `SLACK_SIGNING_SECRET=YOUR_SIGNING_SECRET`
-4.  Run `npm run start-tunnel` and connect the public url with slack webhook.
-5.  Uncomment `// import './render/slack';` inside `src/index.ts`
-6.  Run `npm run dev` and check your bot
+## 👤 Author
 
-### Facebook
+**Dung Huynh**
 
-1. Create [facebook app](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup)
-2. Paste credentials to `.env`
-3. Run `npm run start-tunnel` and connect the public url with facebook webhook.
-4. Uncomment `// import './render/facebook';` inside `src/index.ts`
-5. Run `npm run dev` and check your bot
+-   🌐 [Website](https://productsway.com/)
+-   🐦 [Twitter](https://twitter.com/jellydn)
+-   📟 [GitHub](https://github.com/jellydn)
 
-## Resources
+## 👏 Support
 
--   [Zustand](https://zustand-demo.pmnd.rs/)
--   [google/zx](https://google.github.io/zx/)
--   [jmorganca/ollama](https://github.com/jmorganca/ollama)
-
-## Author
-
-👤 **Dung Huynh**
-
--   Website: https://productsway.com/
--   Twitter: [@jellydn](https://twitter.com/jellydn)
--   Github: [@jellydn](https://github.com/jellydn)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+If you found this project helpful, please give it a ⭐️. Contributions are welcome!
