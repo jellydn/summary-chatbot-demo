@@ -15,7 +15,7 @@
 
 > How to create a summary bot with AI
 
-[![#Build with IT Man - ChatBot & AI - Part 2 [Vietnamese]](https://i.ytimg.com/vi/q1ngSbMqXUE/hqdefault.jpg)](https://www.youtube.com/watch?v=q1ngSbMqXUE)
+[![#BuildWithITMan - ChatBot &amp; AI - Create a Summary ChatBot with AI [Vietnamese]](https://i.ytimg.com/vi/ww9LctJeq84/hqdefault.jpg)](https://www.youtube.com/watch?v=ww9LctJeq84)
 
 ## Prerequisites
 
