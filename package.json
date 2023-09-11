@@ -31,12 +31,12 @@
         "zx": "7.2.3"
     },
     "devDependencies": {
-        "@swc/core": "1.3.83",
+        "@swc/core": "1.3.84",
         "@trivago/prettier-plugin-sort-imports": "4.2.0",
         "@types/react": "18.2.21",
         "@types/react-dom": "18.2.7",
-        "@typescript-eslint/eslint-plugin": "6.6.0",
-        "@typescript-eslint/parser": "6.6.0",
+        "@typescript-eslint/eslint-plugin": "6.7.0",
+        "@typescript-eslint/parser": "6.7.0",
         "@vitejs/plugin-react-swc": "3.3.2",
         "@vitest/coverage-c8": "0.33.0",
         "eslint": "8.49.0",
