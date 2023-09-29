@@ -52,7 +52,7 @@
         "typescript": "5.2.2",
         "unplugin-swc": "1.4.2",
         "vite": "4.4.9",
-        "vitest": "0.34.5"
+        "vitest": "0.34.6"
     },
     "engines": {
         "node": ">=16.20.0"
