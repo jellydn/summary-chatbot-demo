@@ -27,8 +27,8 @@ dependencies:
     specifier: 7.3.1
     version: 7.3.1
   pino:
-    specifier: 8.15.2
-    version: 8.15.2
+    specifier: 8.15.3
+    version: 8.15.3
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -40,7 +40,7 @@ dependencies:
     version: 3.22.2
   zustand:
     specifier: 4.4.1
-    version: 4.4.1(@types/react@18.2.23)(react@18.2.0)
+    version: 4.4.1(@types/react@18.2.24)(react@18.2.0)
   zx:
     specifier: 7.2.3
     version: 7.2.3
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 4.2.0
     version: 4.2.0(prettier@3.0.3)
   '@types/react':
-    specifier: 18.2.23
-    version: 18.2.23
+    specifier: 18.2.24
+    version: 18.2.24
   '@types/react-dom':
     specifier: 18.2.8
     version: 18.2.8
@@ -1091,11 +1091,11 @@ packages:
   /@types/react-dom@18.2.8:
     resolution: {integrity: sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==}
     dependencies:
-      '@types/react': 18.2.23
+      '@types/react': 18.2.24
     dev: true
 
-  /@types/react@18.2.23:
-    resolution: {integrity: sha512-qHLW6n1q2+7KyBEYnrZpcsAmU/iiCh9WGCKgXvMxx89+TYdJWRjZohVIo9XTcoLhfX3+/hP0Pbulu3bCZQ9PSA==}
+  /@types/react@18.2.24:
+    resolution: {integrity: sha512-Ee0Jt4sbJxMu1iDcetZEIKQr99J1Zfb6D4F3qfUWoR1JpInkY1Wdg4WwCyBjL257D0+jGqSl1twBjV8iCaC0Aw==}
     dependencies:
       '@types/prop-types': 15.7.7
       '@types/scheduler': 0.16.3
@@ -4473,8 +4473,8 @@ packages:
     resolution: {integrity: sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==}
     dev: false
 
-  /pino@8.15.2:
-    resolution: {integrity: sha512-TmIG2mfyuqOKtNxW2nCSGNk7Izt/Y60LRjCBfRXoAssuozffisXXvIUl7toajrwfNyN6VzZmPSupQOnqo/2DKQ==}
+  /pino@8.15.3:
+    resolution: {integrity: sha512-wDds1+DH8VaREe4fpLEKttGnDoLiX3KR3AP5bHsrRwEZ93y+Z/HFC03zkGSxpIGWKDHg24sloVqGcIWoLCkTLQ==}
     hasBin: true
     dependencies:
       atomic-sleep: 1.0.0
@@ -6080,7 +6080,7 @@ packages:
     resolution: {integrity: sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==}
     dev: false
 
-  /zustand@4.4.1(@types/react@18.2.23)(react@18.2.0):
+  /zustand@4.4.1(@types/react@18.2.24)(react@18.2.0):
     resolution: {integrity: sha512-QCPfstAS4EBiTQzlaGP1gmorkh/UL1Leaj2tdj+zZCZ/9bm0WS7sI2wnfD5lpOszFqWJ1DcPnGoY8RDL61uokw==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
@@ -6095,7 +6095,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.23
+      '@types/react': 18.2.24
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
