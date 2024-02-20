@@ -6,20 +6,20 @@ settings:
 
 dependencies:
   '@urban-bot/core':
-    specifier: 1.0.4
-    version: 1.0.4(react@18.2.0)
+    specifier: 1.0.5
+    version: 1.0.5(react@18.2.0)
   '@urban-bot/discord':
-    specifier: 1.0.4
-    version: 1.0.4
+    specifier: 1.0.5
+    version: 1.0.5
   '@urban-bot/facebook':
-    specifier: 1.0.4
-    version: 1.0.4(request@2.88.2)
+    specifier: 1.0.5
+    version: 1.0.5(request@2.88.2)
   '@urban-bot/slack':
-    specifier: 1.0.4
-    version: 1.0.4
+    specifier: 1.0.5
+    version: 1.0.5
   '@urban-bot/telegram':
-    specifier: 1.0.4
-    version: 1.0.4
+    specifier: 1.0.5
+    version: 1.0.5
   dotenv:
     specifier: 16.4.5
     version: 16.4.5
@@ -69,7 +69,7 @@ devDependencies:
     version: 3.6.0(vite@5.1.3)
   '@vitest/coverage-c8':
     specifier: 0.33.0
-    version: 0.33.0(vitest@1.3.0)
+    version: 0.33.0(vitest@1.3.1)
   eslint:
     specifier: 8.56.0
     version: 8.56.0
@@ -110,8 +110,8 @@ devDependencies:
     specifier: 5.1.3
     version: 5.1.3
   vitest:
-    specifier: 1.3.0
-    version: 1.3.0
+    specifier: 1.3.1
+    version: 1.3.1
 
 packages:
 
@@ -1041,7 +1041,7 @@ packages:
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 12.20.55
+      '@types/node': 20.11.19
     dev: false
 
   /@types/cacheable-request@6.0.3:
@@ -1060,7 +1060,7 @@ packages:
   /@types/connect@3.4.38:
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.11.19
     dev: false
 
   /@types/debug@4.1.12:
@@ -1076,7 +1076,7 @@ packages:
   /@types/express-serve-static-core@4.17.43:
     resolution: {integrity: sha512-oaYtiBirUOPQGSWNGPWnzyAFJ0BP3cwvN4oWZQY+zUBwpVIGsKUkpBpSztp74drYcjavs7SKFZ4DX1V2QeN8rg==}
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.11.19
       '@types/qs': 6.9.11
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -1095,7 +1095,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 18.19.17
+      '@types/node': 20.11.19
     dev: false
 
   /@types/http-cache-semantics@4.0.4:
@@ -1127,7 +1127,7 @@ packages:
   /@types/jsonfile@6.1.4:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     dependencies:
-      '@types/node': 18.19.17
+      '@types/node': 20.11.19
     dev: false
 
   /@types/keyv@3.1.4:
@@ -1267,7 +1267,7 @@ packages:
     resolution: {integrity: sha512-x2EM6TJOybec7c52BX0ZspPodMsQUd5L6PRwOunVyVUhXiBSKf3AezDL8Dgvgt5o0UfKNfuA0eMLr2wLT4AiBA==}
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 12.20.55
+      '@types/node': 20.11.19
     dev: false
 
   /@types/serve-static@1.15.5:
@@ -1275,7 +1275,7 @@ packages:
     dependencies:
       '@types/http-errors': 2.0.4
       '@types/mime': 3.0.4
-      '@types/node': 12.20.55
+      '@types/node': 20.11.19
     dev: false
 
   /@types/tough-cookie@4.0.5:
@@ -1446,8 +1446,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@urban-bot/core@1.0.4(react@18.2.0):
-    resolution: {integrity: sha512-kJFmVhVsvLDGxM2ReG9O76yIl3bGEyYeV0pWaZyxYgHBL82azDb8OjU0AyOYz7NaQLBLYkC/NuQbt10IRzxlOg==}
+  /@urban-bot/core@1.0.5(react@18.2.0):
+    resolution: {integrity: sha512-uKbDb2X+xpDsq3Qu74FaJgdAjQe0U8w1uZht4R95y1/S7Jtc09CL/5Q6xCDEWfNaanwbeniGZOlEhIZhnYqnGw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -1466,8 +1466,8 @@ packages:
       - supports-color
     dev: false
 
-  /@urban-bot/discord@1.0.4:
-    resolution: {integrity: sha512-SP4q7z+S0AM1yEihKaNZe8F1CyXkNaZCPUc3wCNKs5/QxsEY4GjYTZog7uHd2xcSNz4clDiFm6JZbGGBrP9nAA==}
+  /@urban-bot/discord@1.0.5:
+    resolution: {integrity: sha512-e2evs7KDmrXww9N49I1Nm9UY3BzrIvGJ2+W1jBFD2y40a3o/qHwGNhGB+XdFyS3Wzi5r0UV+KqbPM6wiiF0rAA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@discordjs/rest': 0.1.0-canary.0
@@ -1480,8 +1480,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@urban-bot/facebook@1.0.4(request@2.88.2):
-    resolution: {integrity: sha512-fbgIbmWlt+OvZqYPNp+sOQnTjceG5vym3d3RqVKSpRpvFgukYd8AkOt3eo9yIDgNLiLjB/01T4nNL/vYdzognA==}
+  /@urban-bot/facebook@1.0.5(request@2.88.2):
+    resolution: {integrity: sha512-7j2B0hRdqaFrl4TzVv6FVzlj0VpFOuZBJb7kMZdhgTJC+XMqgo20kVc2d3DO2tYUiI2Tpbzv05DTmci9GT4esQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       array-flatten: 3.0.0
@@ -1494,8 +1494,8 @@ packages:
       - supports-color
     dev: false
 
-  /@urban-bot/slack@1.0.4:
-    resolution: {integrity: sha512-5+0xDmuC+6VkpOlV3Rw9dZcfZ3XfITd1uxw9ICQT7Ik/Hrg6qDPupyGUvtKuVTfLmhXJy7+NdeyeuSaE8VxbBw==}
+  /@urban-bot/slack@1.0.5:
+    resolution: {integrity: sha512-25VQ2YXJG2bjCaGYhjAdN9+JOUzlh3qixYYdomZIJpjRjRD/Orv/aCO70O/oZIn7iI/1bPCqGZi9BD7CQTAvNA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@slack/events-api': 3.0.0
@@ -1508,8 +1508,8 @@ packages:
       - supports-color
     dev: false
 
-  /@urban-bot/telegram@1.0.4:
-    resolution: {integrity: sha512-MmtOA0OVKlGOXSKEufkP0iuU3qWJ0f8I8GQJRwVZ88NxSvBIhDIxVb2GitfHI2UsLS35lySOUp+89OnffJj/7Q==}
+  /@urban-bot/telegram@1.0.5:
+    resolution: {integrity: sha512-Keme0jS12YjtsIj7i70f4r2vSPTN17TGGk/MDp8cRgok1FBCBEjpulxjN0QLPcaHz+GYAxVdeLUtquWsHROn6Q==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@types/node-telegram-bot-api': 0.53.6
@@ -1530,7 +1530,7 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@vitest/coverage-c8@0.33.0(vitest@1.3.0):
+  /@vitest/coverage-c8@0.33.0(vitest@1.3.1):
     resolution: {integrity: sha512-DaF1zJz4dcOZS4k/neiQJokmOWqsGXwhthfmUdPGorXIQHjdPvV6JQSYhQDI41MyI8c+IieQUdIDs5XAMHtDDw==}
     deprecated: v8 coverage is moved to @vitest/coverage-v8 package
     peerDependencies:
@@ -1541,41 +1541,41 @@ packages:
       magic-string: 0.30.7
       picocolors: 1.0.0
       std-env: 3.7.0
-      vitest: 1.3.0
+      vitest: 1.3.1
     dev: true
 
-  /@vitest/expect@1.3.0:
-    resolution: {integrity: sha512-7bWt0vBTZj08B+Ikv70AnLRicohYwFgzNjFqo9SxxqHHxSlUJGSXmCRORhOnRMisiUryKMdvsi1n27Bc6jL9DQ==}
+  /@vitest/expect@1.3.1:
+    resolution: {integrity: sha512-xofQFwIzfdmLLlHa6ag0dPV8YsnKOCP1KdAeVVh34vSjN2dcUiXYCD9htu/9eM7t8Xln4v03U9HLxLpPlsXdZw==}
     dependencies:
-      '@vitest/spy': 1.3.0
-      '@vitest/utils': 1.3.0
+      '@vitest/spy': 1.3.1
+      '@vitest/utils': 1.3.1
       chai: 4.4.1
     dev: true
 
-  /@vitest/runner@1.3.0:
-    resolution: {integrity: sha512-1Jb15Vo/Oy7mwZ5bXi7zbgszsdIBNjc4IqP8Jpr/8RdBC4nF1CTzIAn2dxYvpF1nGSseeL39lfLQ2uvs5u1Y9A==}
+  /@vitest/runner@1.3.1:
+    resolution: {integrity: sha512-5FzF9c3jG/z5bgCnjr8j9LNq/9OxV2uEBAITOXfoe3rdZJTdO7jzThth7FXv/6b+kdY65tpRQB7WaKhNZwX+Kg==}
     dependencies:
-      '@vitest/utils': 1.3.0
+      '@vitest/utils': 1.3.1
       p-limit: 5.0.0
       pathe: 1.1.2
     dev: true
 
-  /@vitest/snapshot@1.3.0:
-    resolution: {integrity: sha512-swmktcviVVPYx9U4SEQXLV6AEY51Y6bZ14jA2yo6TgMxQ3h+ZYiO0YhAHGJNp0ohCFbPAis1R9kK0cvN6lDPQA==}
+  /@vitest/snapshot@1.3.1:
+    resolution: {integrity: sha512-EF++BZbt6RZmOlE3SuTPu/NfwBF6q4ABS37HHXzs2LUVPBLx2QoY/K0fKpRChSo8eLiuxcbCVfqKgx/dplCDuQ==}
     dependencies:
       magic-string: 0.30.7
       pathe: 1.1.2
       pretty-format: 29.7.0
     dev: true
 
-  /@vitest/spy@1.3.0:
-    resolution: {integrity: sha512-AkCU0ThZunMvblDpPKgjIi025UxR8V7MZ/g/EwmAGpjIujLVV2X6rGYGmxE2D4FJbAy0/ijdROHMWa2M/6JVMw==}
+  /@vitest/spy@1.3.1:
+    resolution: {integrity: sha512-xAcW+S099ylC9VLU7eZfdT9myV67Nor9w9zhf0mGCYJSO+zM2839tOeROTdikOi/8Qeusffvxb/MyBSOja1Uig==}
     dependencies:
       tinyspy: 2.2.1
     dev: true
 
-  /@vitest/utils@1.3.0:
-    resolution: {integrity: sha512-/LibEY/fkaXQufi4GDlQZhikQsPO2entBKtfuyIpr1jV4DpaeasqkeHjhdOhU24vSHshcSuEyVlWdzvv2XmYCw==}
+  /@vitest/utils@1.3.1:
+    resolution: {integrity: sha512-d3Waie/299qqRyHTm2DjADeTaNdNSVsnwHPWrs20JMpjh6eiVq7ggggweO8rc4arhf6rRkWuHKwvxGvejUXZZQ==}
     dependencies:
       diff-sequences: 29.6.3
       estree-walker: 3.0.3
@@ -6084,8 +6084,8 @@ packages:
       extsprintf: 1.3.0
     dev: false
 
-  /vite-node@1.3.0:
-    resolution: {integrity: sha512-D/oiDVBw75XMnjAXne/4feCkCEwcbr2SU1bjAhCcfI5Bq3VoOHji8/wCPAfUkDIeohJ5nSZ39fNxM3dNZ6OBOA==}
+  /vite-node@1.3.1:
+    resolution: {integrity: sha512-azbRrqRxlWTJEVbzInZCTchx0X69M/XPTCz4H+TLvlTcR/xH/3hkRqhOakT41fMJCMzXTu4UvegkZiEoJAWvng==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     dependencies:
@@ -6140,15 +6140,15 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.3.0:
-    resolution: {integrity: sha512-V9qb276J1jjSx9xb75T2VoYXdO1UKi+qfflY7V7w93jzX7oA/+RtYE6TcifxksxsZvygSSMwu2Uw6di7yqDMwg==}
+  /vitest@1.3.1:
+    resolution: {integrity: sha512-/1QJqXs8YbCrfv/GPQ05wAZf2eakUPLPa18vkJAKE7RXOKfVHqMZZ1WlTjiwl6Gcn65M5vpNUB6EFLnEdRdEXQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@types/node': ^18.0.0 || >=20.0.0
-      '@vitest/browser': 1.3.0
-      '@vitest/ui': 1.3.0
+      '@vitest/browser': 1.3.1
+      '@vitest/ui': 1.3.1
       happy-dom: '*'
       jsdom: '*'
     peerDependenciesMeta:
@@ -6165,11 +6165,11 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@vitest/expect': 1.3.0
-      '@vitest/runner': 1.3.0
-      '@vitest/snapshot': 1.3.0
-      '@vitest/spy': 1.3.0
-      '@vitest/utils': 1.3.0
+      '@vitest/expect': 1.3.1
+      '@vitest/runner': 1.3.1
+      '@vitest/snapshot': 1.3.1
+      '@vitest/spy': 1.3.1
+      '@vitest/utils': 1.3.1
       acorn-walk: 8.3.2
       chai: 4.4.1
       debug: 4.3.4
@@ -6183,7 +6183,7 @@ packages:
       tinybench: 2.6.0
       tinypool: 0.8.2
       vite: 5.1.3
-      vite-node: 1.3.0
+      vite-node: 1.3.1
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
