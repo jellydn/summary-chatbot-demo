@@ -21,7 +21,7 @@
         "@urban-bot/facebook": "1.0.4",
         "@urban-bot/slack": "1.0.4",
         "@urban-bot/telegram": "1.0.4",
-        "dotenv": "16.4.4",
+        "dotenv": "16.4.5",
         "envalid": "8.0.0",
         "pino": "8.19.0",
         "react": "18.2.0",
@@ -33,7 +33,7 @@
     "devDependencies": {
         "@swc/core": "1.4.2",
         "@trivago/prettier-plugin-sort-imports": "4.3.0",
-        "@types/react": "18.2.56",
+        "@types/react": "18.2.57",
         "@types/react-dom": "18.2.19",
         "@typescript-eslint/eslint-plugin": "6.21.0",
         "@typescript-eslint/parser": "6.21.0",
