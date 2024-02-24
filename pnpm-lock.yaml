@@ -6,20 +6,20 @@ settings:
 
 dependencies:
   '@urban-bot/core':
-    specifier: 1.0.5
-    version: 1.0.5(react@18.2.0)
+    specifier: 1.0.7
+    version: 1.0.7(react@18.2.0)
   '@urban-bot/discord':
-    specifier: 1.0.5
-    version: 1.0.5
+    specifier: 1.0.7
+    version: 1.0.7
   '@urban-bot/facebook':
-    specifier: 1.0.5
-    version: 1.0.5(request@2.88.2)
+    specifier: 1.0.7
+    version: 1.0.7(request@2.88.2)
   '@urban-bot/slack':
-    specifier: 1.0.5
-    version: 1.0.5
+    specifier: 1.0.7
+    version: 1.0.7
   '@urban-bot/telegram':
-    specifier: 1.0.5
-    version: 1.0.5
+    specifier: 1.0.7
+    version: 1.0.7
   dotenv:
     specifier: 16.4.5
     version: 16.4.5
@@ -1446,8 +1446,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@urban-bot/core@1.0.5(react@18.2.0):
-    resolution: {integrity: sha512-uKbDb2X+xpDsq3Qu74FaJgdAjQe0U8w1uZht4R95y1/S7Jtc09CL/5Q6xCDEWfNaanwbeniGZOlEhIZhnYqnGw==}
+  /@urban-bot/core@1.0.7(react@18.2.0):
+    resolution: {integrity: sha512-m4ZVYsKiKxXHCUDpkRry8bMXvfZ84avKOYBaO6UuTb2OAv+Bsx5HtJUDAP11h5FXWFUBBuExGK2zmhOCyCzd7Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -1466,8 +1466,8 @@ packages:
       - supports-color
     dev: false
 
-  /@urban-bot/discord@1.0.5:
-    resolution: {integrity: sha512-e2evs7KDmrXww9N49I1Nm9UY3BzrIvGJ2+W1jBFD2y40a3o/qHwGNhGB+XdFyS3Wzi5r0UV+KqbPM6wiiF0rAA==}
+  /@urban-bot/discord@1.0.7:
+    resolution: {integrity: sha512-fps34SA1oQeuo0ROvMZMMfX8XhA2Y4nTtsuHRUF3tkv+O7fZVNOfVS8P4AVN8AnYWgBig5x6faAlzI+quSqqmg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@discordjs/rest': 0.1.0-canary.0
@@ -1480,8 +1480,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@urban-bot/facebook@1.0.5(request@2.88.2):
-    resolution: {integrity: sha512-7j2B0hRdqaFrl4TzVv6FVzlj0VpFOuZBJb7kMZdhgTJC+XMqgo20kVc2d3DO2tYUiI2Tpbzv05DTmci9GT4esQ==}
+  /@urban-bot/facebook@1.0.7(request@2.88.2):
+    resolution: {integrity: sha512-AoqNOukjkUIJ/plx0OTL8MXk0332LFifTkEJJ9t13QTR9tBN5GFAnuw1GF9xsu4su5d/tof0yJW6+MJxN94yzA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       array-flatten: 3.0.0
@@ -1494,8 +1494,8 @@ packages:
       - supports-color
     dev: false
 
-  /@urban-bot/slack@1.0.5:
-    resolution: {integrity: sha512-25VQ2YXJG2bjCaGYhjAdN9+JOUzlh3qixYYdomZIJpjRjRD/Orv/aCO70O/oZIn7iI/1bPCqGZi9BD7CQTAvNA==}
+  /@urban-bot/slack@1.0.7:
+    resolution: {integrity: sha512-nmMmLPd86vKhjuGG6KXqm13FT0FvGei7WBIHb+Y57kJ73Lb57dy9JlZTO7yx6k8wCtCGQR3B2xcVVRh7ic4WNA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@slack/events-api': 3.0.0
@@ -1508,8 +1508,8 @@ packages:
       - supports-color
     dev: false
 
-  /@urban-bot/telegram@1.0.5:
-    resolution: {integrity: sha512-Keme0jS12YjtsIj7i70f4r2vSPTN17TGGk/MDp8cRgok1FBCBEjpulxjN0QLPcaHz+GYAxVdeLUtquWsHROn6Q==}
+  /@urban-bot/telegram@1.0.7:
+    resolution: {integrity: sha512-Mk3Jy0vBSHIaVOw6xCMojE8WBh39YFy/QMxinIjtJbEkH+8hzCnXI4cAhkg6jFExo5asfr6LEvuD2Og3K3+WvQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@types/node-telegram-bot-api': 0.53.6
