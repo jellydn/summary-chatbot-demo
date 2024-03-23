@@ -51,7 +51,7 @@
         "tsx": "4.7.1",
         "typescript": "5.4.3",
         "unplugin-swc": "1.4.4",
-        "vite": "5.2.3",
+        "vite": "5.2.4",
         "vitest": "1.4.0"
     },
     "engines": {
