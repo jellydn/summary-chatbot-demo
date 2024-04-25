@@ -48,11 +48,11 @@
         "ngrok": "5.0.0-beta.2",
         "prettier": "3.2.5",
         "tsup": "8.0.2",
-        "tsx": "4.7.2",
+        "tsx": "4.7.3",
         "typescript": "5.4.5",
         "unplugin-swc": "1.4.5",
         "vite": "5.2.10",
-        "vitest": "1.5.1"
+        "vitest": "1.5.2"
     },
     "engines": {
         "node": ">=16.20.0"
