@@ -16,11 +16,11 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@urban-bot/core": "1.0.7",
-        "@urban-bot/discord": "1.0.7",
-        "@urban-bot/facebook": "1.0.7",
-        "@urban-bot/slack": "1.0.7",
-        "@urban-bot/telegram": "1.0.7",
+        "@urban-bot/core": "1.0.9",
+        "@urban-bot/discord": "1.0.9",
+        "@urban-bot/facebook": "1.0.9",
+        "@urban-bot/slack": "1.0.9",
+        "@urban-bot/telegram": "1.0.9",
         "dotenv": "16.4.5",
         "envalid": "8.0.0",
         "pino": "8.21.0",
@@ -31,7 +31,7 @@
         "zx": "7.2.3"
     },
     "devDependencies": {
-        "@swc/core": "1.5.2",
+        "@swc/core": "1.5.3",
         "@trivago/prettier-plugin-sort-imports": "4.3.0",
         "@types/react": "18.3.1",
         "@types/react-dom": "18.3.0",
