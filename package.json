@@ -31,7 +31,7 @@
         "zx": "7.2.3"
     },
     "devDependencies": {
-        "@swc/core": "1.5.28",
+        "@swc/core": "1.5.29",
         "@trivago/prettier-plugin-sort-imports": "4.3.0",
         "@types/react": "18.3.3",
         "@types/react-dom": "18.3.0",
@@ -48,7 +48,7 @@
         "ngrok": "5.0.0-beta.2",
         "prettier": "3.3.2",
         "tsup": "8.1.0",
-        "tsx": "4.15.2",
+        "tsx": "4.15.4",
         "typescript": "5.4.5",
         "unplugin-swc": "1.4.5",
         "vite": "5.2.13",
