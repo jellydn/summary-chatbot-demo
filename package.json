@@ -31,7 +31,7 @@
         "zx": "8.1.5"
     },
     "devDependencies": {
-        "@swc/core": "1.7.23",
+        "@swc/core": "1.7.24",
         "@trivago/prettier-plugin-sort-imports": "4.3.0",
         "@types/react": "18.3.5",
         "@types/react-dom": "18.3.0",
