@@ -31,7 +31,7 @@
         "zx": "8.2.1"
     },
     "devDependencies": {
-        "@swc/core": "1.9.1",
+        "@swc/core": "1.9.2",
         "@trivago/prettier-plugin-sort-imports": "4.3.0",
         "@types/react": "18.3.12",
         "@types/react-dom": "18.3.1",
@@ -51,7 +51,7 @@
         "tsx": "4.19.2",
         "typescript": "5.6.3",
         "unplugin-swc": "1.5.1",
-        "vite": "5.4.10",
+        "vite": "5.4.11",
         "vitest": "2.1.4"
     },
     "engines": {
