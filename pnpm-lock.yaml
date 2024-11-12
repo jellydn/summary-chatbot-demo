@@ -45,8 +45,8 @@ importers:
         specifier: 4.5.5
         version: 4.5.5(@types/react@18.3.12)(react@18.3.1)
       zx:
-        specifier: 8.2.1
-        version: 8.2.1
+        specifier: 8.2.2
+        version: 8.2.2
     devDependencies:
       '@swc/core':
         specifier: 1.9.2
@@ -3756,8 +3756,8 @@ packages:
       react:
         optional: true
 
-  zx@8.2.1:
-    resolution: {integrity: sha512-E3TZRg76QC14RXU8LLKGCnsd8omfM220TJKU4O4R1YuitE4IzDB3cmX6+tF2iffJ8JtlWxBo35YS1TCmpINuaQ==}
+  zx@8.2.2:
+    resolution: {integrity: sha512-HSIdpU5P2ONI0nssnhsUZNCH9Sd/Z8LIFk9n8QTbu6JufzJx7qR7ajrMN21s06JqWSApcN012377iWsv8Vs5bg==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
 
@@ -4389,7 +4389,7 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 12.20.55
+      '@types/node': 22.9.0
 
   '@types/cacheable-request@6.0.3':
     dependencies:
@@ -4402,7 +4402,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.9.0
 
   '@types/debug@4.1.12':
     dependencies:
@@ -4412,7 +4412,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.9.0
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -4524,12 +4524,12 @@ snapshots:
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 12.20.55
+      '@types/node': 22.9.0
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 12.20.55
+      '@types/node': 22.9.0
       '@types/send': 0.17.4
 
   '@types/tough-cookie@4.0.5': {}
@@ -7808,7 +7808,7 @@ snapshots:
       '@types/react': 18.3.12
       react: 18.3.1
 
-  zx@8.2.1:
+  zx@8.2.2:
     optionalDependencies:
       '@types/fs-extra': 11.0.4
       '@types/node': 22.9.0
