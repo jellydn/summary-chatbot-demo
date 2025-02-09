@@ -67,8 +67,8 @@ importers:
         specifier: 6.21.0
         version: 6.21.0(eslint@8.57.1)(typescript@5.7.3)
       '@vitejs/plugin-react-swc':
-        specifier: 3.7.2
-        version: 3.7.2(vite@5.4.14(@types/node@22.13.0))
+        specifier: 3.8.0
+        version: 3.8.0(vite@5.4.14(@types/node@22.13.0))
       '@vitest/coverage-c8':
         specifier: 0.33.0
         version: 0.33.0(vitest@2.1.9(@types/node@22.13.0))
@@ -82,8 +82,8 @@ importers:
         specifier: 4.6.2
         version: 4.6.2(eslint@8.57.1)
       eslint-plugin-react-refresh:
-        specifier: 0.4.18
-        version: 0.4.18(eslint@8.57.1)
+        specifier: 0.4.19
+        version: 0.4.19(eslint@8.57.1)
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -1221,8 +1221,8 @@ packages:
     resolution: {integrity: sha512-v6k+aqPK5rCclf5j8MwV26MpTKAsHVjEiwGiQygNBwBukJMn57OQgqGl9MG8UcRhzoSTxpQ4FefQAwAdW3jpIw==}
     engines: {node: '>=14.0.0'}
 
-  '@vitejs/plugin-react-swc@3.7.2':
-    resolution: {integrity: sha512-y0byko2b2tSVVf5Gpng1eEhX1OvPC7x8yns1Fx8jDzlJp4LS6CMkCPfLw47cjyoMrshQDoQw4qcgjsU9VvlCew==}
+  '@vitejs/plugin-react-swc@3.8.0':
+    resolution: {integrity: sha512-T4sHPvS+DIqDP51ifPqa9XIRAz/kIvIi8oXcnOZZgHmMotgmmdxe/DD5tMFlt5nuIRzT0/QuiwmKlH0503Aapw==}
     peerDependencies:
       vite: ^4 || ^5 || ^6
 
@@ -1921,8 +1921,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react-refresh@0.4.18:
-    resolution: {integrity: sha512-IRGEoFn3OKalm3hjfolEWGqoF/jPqeEYFp+C8B0WMzwGwBMvlRDQd06kghDhF0C61uJ6WfSDhEZE/sAQjduKgw==}
+  eslint-plugin-react-refresh@0.4.19:
+    resolution: {integrity: sha512-eyy8pcr/YxSYjBoqIFSrlbn9i/xvxUFa8CjzAYo9cFjgGXqq1hyjihcpZvxRLalpaWmueWR81xn7vuKmAFijDQ==}
     peerDependencies:
       eslint: '>=8.40'
 
@@ -4835,7 +4835,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-react-swc@3.7.2(vite@5.4.14(@types/node@22.13.0))':
+  '@vitejs/plugin-react-swc@3.8.0(vite@5.4.14(@types/node@22.13.0))':
     dependencies:
       '@swc/core': 1.10.15
       vite: 5.4.14(@types/node@22.13.0)
@@ -5788,7 +5788,7 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-plugin-react-refresh@0.4.18(eslint@8.57.1):
+  eslint-plugin-react-refresh@0.4.19(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
 
