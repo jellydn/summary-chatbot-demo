@@ -45,8 +45,8 @@ importers:
         specifier: 4.5.6
         version: 4.5.6(@types/react@18.3.20)(react@18.3.1)
       zx:
-        specifier: 8.5.0
-        version: 8.5.0
+        specifier: 8.5.2
+        version: 8.5.2
     devDependencies:
       '@swc/core':
         specifier: 1.11.18
@@ -3667,8 +3667,8 @@ packages:
       react:
         optional: true
 
-  zx@8.5.0:
-    resolution: {integrity: sha512-XS5/oKOQxKNfG2sVO6TQQjZF5RqWGE5QGSUOCZZVTnvYr3RDBTdbX3IFmV9CrnycCAQWcY0hAD3DDUa4RJE4+w==}
+  zx@8.5.2:
+    resolution: {integrity: sha512-eIxjTkCtlzvDNRhw3RD1gGBPA4nxOTn6PafpKl+MW4eE2jR/u/R6mqq7oyUCXwarM5DSP96kWtq6XkrL2kSFrg==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
 
@@ -7733,4 +7733,4 @@ snapshots:
       '@types/react': 18.3.20
       react: 18.3.1
 
-  zx@8.5.0: {}
+  zx@8.5.2: {}
