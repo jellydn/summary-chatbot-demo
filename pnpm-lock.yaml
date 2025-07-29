@@ -45,8 +45,8 @@ importers:
         specifier: 4.5.7
         version: 4.5.7(@types/react@18.3.23)(react@18.3.1)
       zx:
-        specifier: 8.7.1
-        version: 8.7.1
+        specifier: 8.7.2
+        version: 8.7.2
     devDependencies:
       '@swc/core':
         specifier: 1.13.3
@@ -3193,6 +3193,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   split2@4.2.0:
     resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
@@ -3706,8 +3707,8 @@ packages:
       react:
         optional: true
 
-  zx@8.7.1:
-    resolution: {integrity: sha512-28u1w2LlIfvyvJvYe6pmCipesk8oL5AFMVp+P/U445LcaPgzrU5lNDtAPd6nJvWmoCNyXZz37R/xKOGokccjsw==}
+  zx@8.7.2:
+    resolution: {integrity: sha512-4Wtl46msLFx6QW6GjLu1aRnFhavukT4VSp4tdXvfRIBRNW3RP7Si3RlRFD7YeQeecQBacVFRQQgm5LTvE/YEGQ==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
 
@@ -7829,4 +7830,4 @@ snapshots:
       '@types/react': 18.3.23
       react: 18.3.1
 
-  zx@8.7.1: {}
+  zx@8.7.2: {}
