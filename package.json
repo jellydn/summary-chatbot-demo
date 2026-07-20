@@ -21,7 +21,7 @@
         "@urban-bot/facebook": "1.0.9",
         "@urban-bot/slack": "1.0.9",
         "@urban-bot/telegram": "1.0.9",
-        "dotenv": "16.6.1",
+        "dotenv": "17.4.2",
         "envalid": "8.1.1",
         "pino": "9.14.0",
         "react": "18.3.1",
